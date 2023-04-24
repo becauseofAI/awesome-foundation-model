@@ -34,3 +34,18 @@ demo: https://huggingface.co/spaces/xdecoder/SEEM
 
 
 ##  Self-Supervised Pretraining for Vision Large Model
+
+##  Vision Large Model for Downstream Task
+<details open>
+<summary>InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions</summary>
+<div align="center"><img src="assets/intern-image.png"/></div>    
+<div align="justify">
+<p>
+Compared to the great progress of large-scale vision transformers (ViTs) in recent years, large-scale models based on convolutional neural networks (CNNs) are still
+in an early state. This work presents a new large-scale CNN-based foundation model, termed InternImage, which can obtain the gain from increasing parameters and training data like ViTs. Different from the recent CNNs that focus on large dense kernels, InternImage takes deformable convolution as the core operator, so that our model not only has the large effective receptive field required for downstream tasks such as detection and segmentation, but also has the adaptive spatial aggregation conditioned by input and task information. As a result, the proposed InternImage reduces the strict inductive bias of traditional CNNs and makes it possible to learn stronger and more robust patterns with large-scale parameters from massive data like ViTs. The effectiveness of our model is proven on challenging benchmarks including ImageNet, COCO, and ADE20K. It is worth mentioning that InternImage-H achieved a new record 65.4 mAP on COCO test-dev and 62.9 mIoU on ADE20K, outperforming current leading CNNs and ViTs.
+ 
+paper: https://arxiv.org/pdf/2304.02643.pdf  
+code: https://github.com/OpenGVLab/InternImage  
+</p>
+</div>
+</details>
