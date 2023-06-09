@@ -1,5 +1,5 @@
 # <p align="center">Awesome Foundation Model</p>  
-<div align="center"><img src="assets/sam-demo.gif"/></div>  
+<div align="center"><img src="assets/overview.jpg"/></div>  
 
 ## Vision Large Model
 
@@ -32,6 +32,20 @@ demo: https://replicate.com/cjwbw/semantic-segment-anything
 </div>
 </details>
 
+<details>
+<summary>RAM: Recognize Anything - A Strong Image Tagging Model</summary>
+<div align="center"><img src="assets/ram.jpg"/></div>    
+<div align="justify">
+<p>
+We present the Recognize Anything Model (RAM): a strong foundation model for image tagging. RAM makes a substantial step for large models in computer vision, demonstrating the zero-shot ability to recognize any common category with high accuracy. RAM introduces a new paradigm for image tagging, leveraging large-scale imagetext pairs for training instead of manual annotations. The development of RAM comprises four key steps. Firstly, annotation-free image tags are obtained at scale through automatic text semantic parsing. Subsequently, a preliminary model is trained for automatic annotation by unifying the caption and tagging tasks, supervised by the original texts and parsed tags, respectively. Thirdly, a data engine is employed to generate additional annotations and clean incorrect ones. Lastly, the model is retrained with the processed data and fine-tuned using a smaller but higherquality dataset. We evaluate the tagging capabilities of RAM on numerous benchmarks and observe impressive zero-shot performance, significantly outperforming CLIP and BLIP. Remarkably, RAM even surpasses the fully supervised manners and exhibits competitive performance with the Google tagging API. We are releasing the RAM at https://recognize-anything.github.io/ to foster the advancements of large models in computer vision.
+
+paper: https://arxiv.org/pdf/2306.03514.pdf  
+code: https://github.com/xinyu1205/Recognize_Anything-Tag2Text  
+demo: https://huggingface.co/spaces/xinyu1205/Recognize_Anything-Tag2Text  
+project: https://recognize-anything.github.io/  
+</p>
+</div>
+</details>
 
 <details>
 <summary>SEEM: Segment Everything Everywhere All at Once</summary>
