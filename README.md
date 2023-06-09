@@ -19,6 +19,21 @@ demo: https://segment-anything.com/demo
 </details>
 
 <details>
+<summary>SSA: Semantic segment anything</summary>
+<div align="center"><img src="assets/ssa.png"/></div>    
+<div align="justify">
+<p>
+SAM is a powerful model for arbitrary object segmentation, while SA-1B is the largest segmentation dataset to date. However, SAM lacks the ability to predict semantic categories for each mask. (I) To address above limitation, we propose a pipeline on top of SAM to predict semantic category for each mask, called Semantic Segment Anything (SSA). (II) Moreover, our SSA can serve as an automated dense open-vocabulary annotation engine called Semantic segment anything labeling engine (SSA-engine), providing rich semantic category annotations for SA-1B or any other dataset. This engine significantly reduces the need for manual annotation and associated costs.
+
+paper:  
+code: https://github.com/fudan-zvg/Semantic-Segment-Anything  
+demo: https://replicate.com/cjwbw/semantic-segment-anything
+</p>
+</div>
+</details>
+
+
+<details>
 <summary>SEEM: Segment Everything Everywhere All at Once</summary>
 <div align="center"><img src="assets/seem.png"/></div>    
 <div align="justify">
